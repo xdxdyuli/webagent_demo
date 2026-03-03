@@ -3,7 +3,6 @@
 
 # ✨ 功能
 - GET / - 返回欢迎消息
-- GET /hello/{name} - 返回个性化问候
 - POST /echo - 接收数字，返回 +1 的结果
 - POST /chat - 调用阿里云通义千问回答用户问题
 
@@ -51,7 +50,7 @@ webagent/
 ├── test_api.py          # 接口测试脚本
 ├── requirements.txt     # Python 依赖清单
 ├── .env.example         # 环境变量模板
-├── .env                 # 真实配置（自己创建，不提交）
+├── .env                 # 配置信息
 ├── .gitignore           # Git 忽略规则
 └── README.md            # 本文档
 ```
